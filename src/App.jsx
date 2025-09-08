@@ -1,14 +1,17 @@
 import React from 'react'
-
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Agencs from './pages/Agencs'
+import Projects from './pages/projects'
 const App = () => {
-  return (<>
-    <div>App</div>
-    <div className=' bg-red-100'>App</div>
-    <div>App</div>
-    <div>App</div>
-    <div>App</div>
-    <div>App</div>
-  </>
+  return (<div >
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Agencs' element={<Agencs/>}/>
+      <Route path='/Projects' element={<Projects/>}/>
+
+    </Routes>
+  </div>
   )
 }
 
