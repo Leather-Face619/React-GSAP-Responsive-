@@ -1,20 +1,20 @@
 import React from 'react'
-import TopText from '../Components/home/TopText'
-import BottomText from '../Components/home/BottomText'
-import Video from '../Components/home/video'
+import TopText from '../components/home/TopText'
+import BottomText from '../components/home/BottomText'
+import Video from '../components/home/Video'
 
-const Home = () => {    
+const Home = () => {
   return (
     <div>
-    <div className=' w-full h-screen fixed'>
-      <Video/>
-          </div>
-      <div className=' w-full h-screen  bg-amber-900 text-3xl relative'>
+      <div className=' w-screen h-screen fixed'>
+        {/* <Video /> */}
+      </div>
+      <div className='w-screen h-screen bg-red-800 relative flex flex-col'>
 
-   <TopText/>
-          </div>
-
-   {/* <BottomText/> */}
+     <TopText />
+     <BottomText />
+      </div>
+    
     </div>
   )
 }

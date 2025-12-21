@@ -2,15 +2,16 @@ import React from 'react'
 import bgVideo from '../../assets/bgVideo.mp4' 
 const Video = () => {
   return (
-    <div>
+    <div className='w-full h-full'>
          <video
         className="w-full h-screen object-cover"
         autoPlay
         loop
         muted
+        src={bgVideo}
       >
-        <source src={bgVideo} type="video/mp4" />
-        Your browser does not support the video tag.
+        
+        
       </video>
     </div>
   )
