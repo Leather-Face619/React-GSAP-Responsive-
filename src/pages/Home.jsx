@@ -6,10 +6,10 @@ import Video from '../components/home/Video'
 const Home = () => {
   return (
     <div>
-      <div className=' w-screen h-screen fixed'>
-        {/* <Video /> */}
+      <div className='w-screen h-screen fixed '>
+        <Video />
       </div>
-      <div className='w-screen h-screen bg-red-800 relative flex flex-col'>
+      <div className='w-screen h-screen relative flex flex-col justify-between'>
 
      <TopText />
      <BottomText />

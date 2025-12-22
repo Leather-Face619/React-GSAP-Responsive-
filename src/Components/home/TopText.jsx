@@ -1,29 +1,20 @@
 import React from 'react'
+import Video from './Video'
 
 const TopText = () => {
   return (
-    <div className="relative w-full h-screen bg-gray-900 text-white overflow-hidden">
-     <div>
-      The spark for all
-     </div>
-     <div>
-     things creative
-     </div>
-      
-        
-        {/*
-         THE SPARK FOR <br /> ALL THINGS <br />
-          <span className="relative inline-block">
-            CREATIVE
-        <p className="absolute right-6 bottom-40 max-w-sm text-sm md:text-base text-gray-300">
-          K72 is an agency that builds brands from every angle. Today, tomorrow
-          and years from now. We think the best sparks fly when comfort zones
-          get left behind and friction infuses our strategies, brands and
-          communications with real feeling. We’re transparent, honest and say
-          what we mean, and when we believe in something, we’re all in.
-        </p> */}
+    <div className="font-[lusanne500] text-center pt-5">
+      <div className='text-[9vw] flex items-center justify-center uppercase leading-[8.5vw]'>
+        The spark for  
+      </div>
+      <div className='text-[9vw] flex items-center justify-center uppercase leading-[8.5vw]'>
+       all <div className='h-[8vw] w-[15vw] rounded-full overflow-hidden'><Video/></div> things 
+      </div>
+      <div className='text-[9vw] flex items-center justify-center uppercase leading-[8.5vw]'>
+       creative
+      </div>
 
-      
+
     </div>
   )
 }

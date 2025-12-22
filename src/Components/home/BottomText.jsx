@@ -1,22 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BottomText = () => {
   return (
-   <div>
-    
-        {/* Bottom buttons */}
-        <div className="absolute bottom-10 flex gap-6">
-          <button className="px-8 py-3 border-2 border-white rounded-full text-xl font-bold hover:bg-white hover:text-black transition">
-            WORK
-          </button>
-          <button className="px-8 py-3 border-2 border-white rounded-full text-xl font-bold hover:bg-white hover:text-black transition">
-            AGENCY
-          </button>
-        </div>
-
-        {/* Bottom-left time */}
-        <div className="absolute bottom-6 left-6 text-sm text-gray-300">
-          MONTREAL_10:18:19
+   <div className='font-[lusanne500] text-center pt-5 gap-10 flex justify-center'>
+<Link className='text-[6vw] leading-[6vw] border-3 px-6 py-2 border-white rounded-full hover:border-[#D3FD50] hover:text-[#D3FD50] transition' to='/projects'>Work</Link>
+<Link className='text-[6vw] leading-[6vw] border-3 px-6 py-2 border-white rounded-full hover:border-[#D3FD50] hover:text-[#D3FD50] transition' to='/agencs'>Agency</Link>
+        
+        <div className="absolute bottom-6 left-6 text-xl ">
+          Bhilai_69:69:69
         </div>
    </div>
   )

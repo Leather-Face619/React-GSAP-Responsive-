@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <div className='w-full h-full'>
          <video
-        className="w-full h-screen object-cover"
+        className="w-full h-full object-cover center "
         autoPlay
         loop
         muted
